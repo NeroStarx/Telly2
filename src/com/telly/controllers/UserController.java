@@ -33,8 +33,7 @@ public class UserController {
 		reserve.getUser().setUsername(username);
 		
 		reserveService.reserve(reserve);
-	
-		
+
 		return "home";
 
 	}
